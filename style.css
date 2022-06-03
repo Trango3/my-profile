@@ -1,0 +1,142 @@
+/* Colors and fonds*/
+
+body{
+    background:#F7F9FD;
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: lighter;
+} 
+h1, h2, h3{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    color: #035397;
+    font-size: 40px;
+    font-weight: 900;
+}
+h2{
+    color: #001D6E;
+    font-size: 30px;
+    font-weight:lighter;
+    font-weight: 500;
+}
+h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(0, 0, 50);
+}
+a{
+    text-decoration: none;
+    color:#B4E197 ; 
+    font-weight: 600;
+    font-size:16px ;
+    
+
+}
+a:hover{
+    color: #4E944F;
+}
+
+
+/* Custom design with class*/
+
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white{
+    background-image: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.text-center {
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+.card-white li {
+    margin-bottom: 60px;
+    list-style: none;
+    text-align: center;
+}
+#img-ifac {
+   height: 75px;
+   width: 100px;
+}
+#img-esdes {
+    height: 75px;
+    width: 150px;
+}
+#img-quaker {
+    height: 75px;
+    width: 150px;
+}
+#img-lustucru {
+    height: 100px;
+    width: 100px;
+}
+#img-brunel {
+    height: 75px;
+    width: 150px
+}
+#img-cpng {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#img-mjc {
+    height: 75px;
+    width: 150px
+}
+#text-esdes {
+    margin-bottom: 0px;
+}
+#text-lustucru {
+    margin-bottom: 0px;
+}
+#text-brunel {
+    margin-bottom: 0px;
+}
+#text-cpng {
+    margin-bottom: 0px;
+}
+#text-mjc {
+    margin-bottom: 0px;
+}
+#text-ifac {
+    margin-bottom: 0px;
+}
+.img-circle{
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+}
+.btn-blue{
+    background-color: #B4E197;
+    color: white;
+    padding: 15px 20px;
+    border-radius:4px ;
+}
+.btn-blue:hover{
+    background-color: #4E944F;
+    color: white;
+}
+.list-horizontal{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-horizontal li {
+    display: inline;
+    padding: 10px;
+}
+.list-horizontal i {
+    font-size: 40px;
+}
+#introduction P{
+    margin-bottom: 40px;
+}
